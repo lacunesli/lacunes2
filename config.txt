@@ -1,0 +1,17 @@
+#控制网页
+http://手机IP:8080
+
+#web终端
+http://手机IP:5002
+
+#摄像头配置
+http://手机IP:5001/mjpeg
+http://手机lP:5001/snapshot
+
+#printer.cfg配置
+[mcu]
+serial:/dev/ttyOcto4a
+#baud: 115200 #（非必须，默认波特率连不上可改为115200）
+
+[virtual_sdcard]
+path: /home/octoprint/gcode_files
